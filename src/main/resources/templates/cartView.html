@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{style.css}"/>
+    <title>Cart</title>
+</head>
+<body>
+
+<form action="/api/v1/items" method="post">
+    <input type="number" name="id" placeholder="id"/>
+    <input type="number" name="numberOfItems" placeholder="Number of items"/>
+    <input type="submit" value="Add"/>
+</form>
+
+</body>
+</html>
